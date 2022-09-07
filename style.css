@@ -21,7 +21,7 @@ body {
 .pokedex {
     margin-top: 50px;
     width: 300px;
-    height: 500px;
+    height: 520px;
     background-color: rgb(205, 27, 27);
     display: flex;
     flex-direction: column;
@@ -41,7 +41,7 @@ body {
 
 .info {
     width: 220px;
-    height: 180px;
+    height: 210px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -50,19 +50,20 @@ body {
 }
 
 .inputPokemon {
-    width: 140px;
+    width: 160px;
     padding: 6px;
     border-radius: 5px;
     border: none;
+    font-size: 1rem;
 }
 
 .inputPokemon::placeholder {
-    font-size: 0.6rem;
+    font-size: 1rem;
 }
 
 .btnBuscar {
-    width: 70px;
-    padding: 6px;
+    width: 80px;
+    padding: 8px;
     border-radius: 5px;
     border: none;
     background-color: rgb(20, 20, 20);
