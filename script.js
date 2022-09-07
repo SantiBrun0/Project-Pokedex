@@ -68,5 +68,6 @@ btnBuscar.addEventListener('click', () => {
     info.innerHTML = ' '
     let pokemonBuscado = inputPokemon.value.toLowerCase().trim()
     obtenerPokemon(pokemonBuscado)
+    inputPokemon.value = ''
 })
 
