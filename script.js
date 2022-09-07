@@ -66,7 +66,7 @@ const obtenerPokemon = (name) => {
 btnBuscar.addEventListener('click', () => {
     screen.innerHTML = ' '
     info.innerHTML = ' '
-    let pokemonBuscado = inputPokemon.value
+    let pokemonBuscado = inputPokemon.value.toLowerCase().trim()
     obtenerPokemon(pokemonBuscado)
 })
 
